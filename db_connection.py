@@ -3,7 +3,7 @@
 import pymysql
 
 
-conn = pymysql.connect(host='mysql.dsv.su.se', port=3306, user='cefr7413', passwd='iew9ohXaiRah', db='cefr7413')
+conn = pymysql.connect(host='###', port='###', user='###', passwd='###', db='###')
 
 cur = conn.cursor()
 
