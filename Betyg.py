@@ -23,10 +23,10 @@ for key in range(1, mydict):
         print("Felaktigt resultat angavs")
 
 procentsats = ickeGodkant / mydict * 100
-print("Antalet studenter med betyget Underkänt: " + str(ickeGodkant) + " (" + str(procentsats) + " %)")
+print("Antalet studenter med betyget Underkänt: " + str(ickeGodkant) + " (" + str( format(procentsats, '0.1f')) + " %)")
 procentsats = godkant / mydict * 100
-print("Antalet studenter med betyget Godkänt: " + str(godkant) + " (" + str(procentsats) + " %)")
+print("Antalet studenter med betyget Godkänt: " + str(godkant) + " (" + str( format(procentsats, '0.1f')) + " %)")
 procentsats = vg / mydict * 100
-print("Antalet studenter med betyget Väldigt Godkänt: " + str(vg) + " (" + str(procentsats) + " %)")
+print("Antalet studenter med betyget Väldigt Godkänt: " + str(vg) + " (" + str( format(procentsats, '0.1f')) + " %)")
 procentsats = mvg / mydict * 100
-print("Antalet studenter med betyget Mycket Väl Godkänt: " + str(mvg) + " (" + str(procentsats) + " %)")
+print("Antalet studenter med betyget Mycket Väl Godkänt: " + str(mvg) + " (" + str( format(procentsats, '0.1f')) + " %)")
