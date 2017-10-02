@@ -25,17 +25,23 @@ class Customer(object):
         self.balance -= amount
         return self.balance
 
-
-    def print_details(self):
+    def __str__(self):
         print("Firstame:", self.firstname)
         print("Lastname:", self.lastname)
         print("Age:", self.age)
         print("Balance:", self.balance)
         print()
+    #
+    # def print_details(self):
+    #     print("Firstame:", self.firstname)
+    #     print("Lastname:", self.lastname)
+    #     print("Age:", self.age)
+    #     print("Balance:", self.balance)
+    #     print()
 
 def main():
-    k = Customer("Ced", "Yest", 30, 1500)
-    print(k.print_details())
+    k = Customer("Cedric", "Fridgren", 30, 1500)
+    print(k.__str__())
 
 
 

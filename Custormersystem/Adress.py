@@ -1,4 +1,4 @@
-class Adress:
+class Adress(object):
 
 
     def __init__(self, street, streetNumber, city, zipCode):

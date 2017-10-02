@@ -1,7 +1,6 @@
 # Betygssystem
 
 
-
 ickeGodkant = 0
 godkant = 0
 vg = 0
